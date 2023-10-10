@@ -1,0 +1,27 @@
+.botao {
+    padding: 10px 165px;
+    color: #f0f0f0;
+    border: none;
+    height: 40px;
+}
+
+.btn {
+    width: 75px;
+    height: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #000;
+    border-radius: 1000px;
+    color: #000000;
+    transition: all 0.1s ease-in-out 0s;
+    box-shadow: inset;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.64);
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
